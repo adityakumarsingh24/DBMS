@@ -1,0 +1,12 @@
+{
+    "name": "Oracle SQL Lab",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "bash .devcontainer/postCreate.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Oracle.sql-developer"
+            ]
+        }
+    }
+}
